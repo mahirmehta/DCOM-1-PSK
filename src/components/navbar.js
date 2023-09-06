@@ -32,7 +32,7 @@ export class navbar extends Component {
                     <Nav className="mx-auto" onClick={this.setNavClose}>
                         <NavLink activeClassName="active" id="opt" to="/"><img src={require("../img/aim.png")} width="60" alt="logo"/>Aim</NavLink>
                         <NavLink activeClassName="active" id="opt" to="/theory"><img src={require("../img/theory.png")} width="60" alt="logo"/>Theory</NavLink>
-                        <NavLink activeClassName="active" id="opt" to="/procedure"><img src={require("../img/Procedure.png")} width="58" alt="logo"/>Procedure</NavLink>
+                        <NavLink activeClassName="active" id="opt" to="/procedure"><img src={require("../img/procedure.png")} width="58" alt="logo"/>Procedure</NavLink>
                         <NavLink activeClassName="active" id="opt" to="/pre_test"><img src={require("../img/pre-test.png")} width="60" alt="logo"/>Pre-test</NavLink>
                         <NavLink activeClassName="active" id="opt" to="/simulation"><img src={require("../img/simulation.png")}width="57" alt="logo"/>Simulation</NavLink>
                         <NavLink activeClassName="active" id="opt" to="/post_test"><img src={require("../img/post-test.png")}width="62" alt="logo"/>Post-test</NavLink>
